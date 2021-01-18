@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <p class="value" id="value">0</p>
+        <button class="memory-calc" onclick="memoryCalulationPlus()">m+</button>
+        <button class="memory-calc" onclick="memoryCalulationMinus()">m-</button>
+        <button class="memory-calc memory-calc-result" onclick="memoryCalulationResult()">mr</button>
+        <button class="num clear" onclick="clearScreen()">C</button>
+        <button class="num operation"onclick="calculate('divide')" >/</button>
+        <button class="num operation"onclick="calculate('times')" >*</button>
+        <button class="num operation"onclick="calculate('minus')" onclick="">-</button>
+        <button class="num number" onclick="handleInput(1)">1</button>
+        <button class="num number" onclick="handleInput(2)">2</button>
+        <button class="num number" onclick="handleInput(3)">3</button>
+        <button class="num operation"onclick="calculate('plus')" >+</button>
+        <button class="num number" onclick="handleInput(4)">4</button>
+        <button class="num number" onclick="handleInput(5)">5</button>
+        <button class="num number" onclick="handleInput(6)">6</button>
+        <button class="num number" onclick="handleInput('.')">.</button>
+        <button class="num number" onclick="handleInput(7)">7</button>
+        <button class="num number" onclick="handleInput(8)">8</button>
+        <button class="num number" onclick="handleInput(9)">9</button>
+        <button class="num number" onclick="handleInput(0)">0</button>
+        <button class="num equal" onclick="calculate('equal')">=</button>
+    </div>
+</body>
+</html>

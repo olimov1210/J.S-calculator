@@ -1,0 +1,4 @@
+first of all i should have two inputs firstInput and secondInput and should have one operant
+between two inputs. I should create two varibles for two inputs.and need to have two true/false flags if firstInput
+have a value than my firstInputFlag needs to be true and i should write another input to second secondInput
+if firstInput is not true(if it doesnt have a value)then the current input should be written to firstInput;
